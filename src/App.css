@@ -34,12 +34,14 @@
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 10px 30px 10px 10px;
 }
 
 .list li {
   display: flex;
   flex-flow: row;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .list-item_date {
@@ -52,4 +54,14 @@
 
 .delete {
   margin-left: auto;
+  border: none;
+  background: none;
+  font-size: 200%;
+  font-weight: 700;
+  padding: 0;
+  line-height: 0;
+}
+
+.delete:hover {
+  color: red;
 }

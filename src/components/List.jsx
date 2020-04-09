@@ -10,7 +10,7 @@ export default function List({ list, onDelete }) {
     return (<li key={item.id}>
       <div className="list-item_date">{item.date}</div>
       <div className="list-item_distance">{item.distance}</div>
-      <button className="delete" onClick={() => onDelete(item.id)}>x</button>
+      <button className=" button delete" onClick={() => onDelete(item.id)}>×</button>
     </li>)
   })
   elems.sort((a, b) => {
